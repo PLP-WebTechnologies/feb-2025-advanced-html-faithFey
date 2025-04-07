@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Two Assignment</title>
+</head>
+<body>
+    <h1>WEEK TWO ASSIGNMENT</h1>
+    <!-- An ordered list with roman numerals-->
+     
+    <h2>Ordered Lists</h2>
+        <ol type="I">
+            <li>Fruits</li>
+            <li>Vegetables</li>
+            <li>Flowers</li>
+        </ol>
+        
+    <!-- Add an external image from pexels.com -->
+    <h2>External Image from pexel.com</h2>
+    <img src="https://images.pexels.com/photos/2879820/pexels-photo-2879820.jpeg" alt="Flower Image" 
+    height ="300" width="300">
+
+    <!-- Add a table of 5 contacts with; name, address, mobile and emails -->
+    <table border="1">
+        <thead>
+          <tr>
+            <th>name</th>
+            <th>address</th>
+            <th>mobile</th>
+            <th>emails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Faith</td>
+            <td>Kitale</td>
+            <td>+254712345678</td>
+            <td>faith@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Mama</td>
+            <td>Eldoret</td>
+            <td>+254712234567</td>
+            <td>mama@gmail.com</td>
+          </tr>
+          <tr>
+            <td> Baby Toto</td>
+            <td>Eldoret</td>
+            <td>+254712234577</td>
+            <td>toto@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Toto</td>
+            <td>Nairobi</td>
+            <td>+254712634567</td>
+            <td>toto1@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Mercy</td>
+            <td>Kisumu</td>
+            <td>+254712244567</td>
+            <td>mercy@gmail.com</td>
+          </tr>
+        </tbody>
+      </table><br><br>
+      
+    <!-- Add a registration form -->
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Main Content or Personal Information</legend>
+
+            <!-- Name Field -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your  name here" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" 
+                required><br><br>
+
+
+            <!-- Date  Field -->
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <!-- Dropdown: Food Selection -->
+            <label for="food">Food:</label><br>
+            <select id="food" name="food" required>
+                <option value="">--Select your favorite food--</option>
+                <option value="rice">Rice</option>
+                <option value="matoke">Matoke</option>
+                <option value="chapati">Chapati</option>
+                <option value="meat">Meat</option>
+            </select><br><br>
+
+            <!-- Radio Buttons: Gender -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+        
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            
+            
+            <!-- Checkboxes: Hobbies -->
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="novels" name="hobbies" value="novels">
+            <label for="novels">Reading novels</label><br>
+            
+            <input type="checkbox" id="music" name="hobbies" value="music">
+            <label for="music">Music</label><br>
+            
+            <input type="checkbox" id="sports" name="hobbies" value="sports">
+            <label for="sports">Sports</label><br><br>
+        </fieldset>
+        
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+
+    </form>
+ </body>
+ </html>
